@@ -1,0 +1,22 @@
+[
+    {
+        "name": "route1",
+        "private": false,
+        "disable_arg_logs": true
+    },
+    {
+        "name": "route3",
+        "private": false,
+        "disable_arg_logs": true
+    },
+    {
+        "name": "disableautodeployment",
+        "private": false,
+        "disable_arg_logs": true
+    },
+    {
+        "name": "roout5",
+        "private": false,
+        "disable_arg_logs": true
+    }
+]
