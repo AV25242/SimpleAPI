@@ -3,5 +3,10 @@
         "name": "route1",
         "private": false,
         "disable_arg_logs": true
+    },
+    {
+        "name": "route3",
+        "private": false,
+        "disable_arg_logs": true
     }
 ]
