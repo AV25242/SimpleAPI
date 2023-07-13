@@ -1,1 +1,19 @@
-[]
+[
+  {
+    "name": "karma",
+    "description": "",
+    "method": "GET",
+    "endpoint": "/karma",
+    "data_source": {
+      "cluster_id": 1379661944646165903
+    },
+    "params": [],
+    "settings": {
+      "timeout": 15000,
+      "row_limit": 2000
+    },
+    "sql_file": "sql/GET-karma.sql",
+    "type": "sql_endpoint",
+    "return_type": "json"
+  }
+]
