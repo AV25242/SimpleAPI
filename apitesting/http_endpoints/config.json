@@ -1,5 +1,22 @@
 [
   {
+    "name": "dharma",
+    "description": "",
+    "method": "GET",
+    "endpoint": "/dharma",
+    "data_source": {
+      "cluster_id": 1379661944646165903
+    },
+    "params": [],
+    "settings": {
+      "timeout": 5000,
+      "row_limit": 50
+    },
+    "sql_file": "sql/GET-dharma.sql",
+    "type": "sql_endpoint",
+    "return_type": "json"
+  },
+  {
     "name": "karma",
     "description": "",
     "method": "GET",
