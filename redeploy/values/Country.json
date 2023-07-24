@@ -1,0 +1,12 @@
+{
+    "from_secret": false,
+    "name": "Country",
+    "value": {
+        "iss_position": {
+            "latitude": "-15.7385",
+            "longitude": "79.3850"
+        },
+        "message": "success",
+        "timestamp": 1690231920
+    }
+}
