@@ -1,0 +1,7 @@
+{
+    "name": "Value-1",
+    "value": {
+        "$numberInt": "1234"
+    },
+    "from_secret": false
+}
