@@ -1,1 +1,104 @@
-[]
+[
+  {
+    "name": "-users",
+    "description": "",
+    "method": "GET",
+    "endpoint": "/users",
+    "data_source": {
+      "cluster_id": 1379661944646227634
+    },
+    "params": [],
+    "settings": {
+      "timeout": 5000,
+      "row_limit": 50
+    },
+    "tag": "users",
+    "batch_operation": 0,
+    "sql_file": "sql/GET-users.sql",
+    "type": "sql_endpoint",
+    "return_type": "json"
+  },
+  {
+    "name": "-users",
+    "description": "",
+    "method": "POST",
+    "endpoint": "/users",
+    "data_source": {
+      "cluster_id": 1379661944646227634
+    },
+    "params": [
+      {
+        "name": "user_id",
+        "type": "number",
+        "required": 0,
+        "default": ""
+      },
+      {
+        "name": "created_date",
+        "type": "string",
+        "required": 0,
+        "default": ""
+      }
+    ],
+    "settings": {
+      "timeout": 5000,
+      "row_limit": 1
+    },
+    "tag": "users",
+    "batch_operation": 0,
+    "sql_file": "sql/POST-users.sql",
+    "type": "sql_endpoint",
+    "return_type": "json"
+  },
+  {
+    "name": "-users",
+    "description": "",
+    "method": "PUT",
+    "endpoint": "/users",
+    "data_source": {
+      "cluster_id": 1379661944646227634
+    },
+    "params": [
+      {
+        "name": "user_id",
+        "type": "number",
+        "required": 0,
+        "default": ""
+      },
+      {
+        "name": "created_date",
+        "type": "string",
+        "required": 0,
+        "default": ""
+      }
+    ],
+    "settings": {
+      "timeout": 5000,
+      "row_limit": 1
+    },
+    "tag": "users",
+    "batch_operation": 0,
+    "sql_file": "sql/PUT-users.sql",
+    "type": "sql_endpoint",
+    "return_type": "json"
+  },
+  {
+    "name": "-users",
+    "description": "",
+    "method": "DELETE",
+    "endpoint": "/users",
+    "data_source": {
+      "cluster_id": 1379661944646227634
+    },
+    "params": [],
+    "settings": {
+      "timeout": 5000,
+      "row_limit": 1
+    },
+    "tag": "users",
+    "batch_operation": 0,
+    "sql_file": "sql/DELETE-users.sql",
+    "type": "sql_endpoint",
+    "return_type": "json"
+  }
+]
