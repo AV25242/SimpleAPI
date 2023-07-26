@@ -13,7 +13,7 @@
     {
         "route": "/bar",
         "http_method": "POST",
-        "function_name": "bar",
+        "function_name": "bar000",
         "validation_method": "NO_VALIDATION",
         "respond_result": false,
         "fetch_custom_user_data": false,

@@ -10,7 +10,7 @@
     "event_processors": {
         "FUNCTION": {
             "config": {
-                "function_name": "bar"
+                "function_name": "bar000"
             }
         }
     }
