@@ -2,7 +2,7 @@
   {
     "name": "-users",
     "description": "",
-    "method": "DELETE",
+    "method": "PUT",
     "endpoint": "/users",
     "data_source": {
       "cluster_id": 1379661944646227634
@@ -10,8 +10,14 @@
     "params": [
       {
         "name": "user_id",
+        "type": "number",
+        "required": 0,
+        "default": ""
+      },
+      {
+        "name": "created_date",
         "type": "string",
-        "required": 1,
+        "required": 0,
         "default": ""
       }
     ],
@@ -20,8 +26,8 @@
       "row_limit": 1
     },
     "tag": "users",
-    "batch_operation": 0,
-    "sql_file": "sql/DELETE-users.sql",
+    "batch_operation": 1,
+    "sql_file": "sql/PUT-users.sql",
     "type": "sql_endpoint",
     "return_type": "json"
   },
@@ -79,7 +85,7 @@
   {
     "name": "-users",
     "description": "",
-    "method": "PUT",
+    "method": "DELETE",
     "endpoint": "/users",
     "data_source": {
       "cluster_id": 1379661944646227634
@@ -87,14 +93,8 @@
     "params": [
       {
         "name": "user_id",
-        "type": "number",
-        "required": 0,
-        "default": ""
-      },
-      {
-        "name": "created_date",
         "type": "string",
-        "required": 0,
+        "required": 1,
         "default": ""
       }
     ],
@@ -104,7 +104,7 @@
     },
     "tag": "users",
     "batch_operation": 0,
-    "sql_file": "sql/PUT-users.sql",
+    "sql_file": "sql/DELETE-users.sql",
     "type": "sql_endpoint",
     "return_type": "json"
   }
