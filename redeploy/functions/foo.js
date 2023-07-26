@@ -24,7 +24,7 @@ exports = function({ query, headers, body}, response) {
     // const doc = context.services.get("mongodb-atlas").db("dbname").collection("coll_name").findOne();
 
     // Calling a function:
-    // const result = context.functions.execute("function_name", arg1, arg2);
+    const result = context.functions.execute("foo", arg1, arg2);
 
     // The return value of the function is sent as the response back to the client
     // when the "Respond with Result" setting is set.
