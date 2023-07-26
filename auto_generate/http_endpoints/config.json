@@ -2,6 +2,25 @@
   {
     "name": "-users",
     "description": "",
+    "method": "GET",
+    "endpoint": "/users",
+    "data_source": {
+      "cluster_id": 1379661944646227634
+    },
+    "params": [],
+    "settings": {
+      "timeout": 5000,
+      "row_limit": 50
+    },
+    "tag": "users",
+    "batch_operation": 0,
+    "sql_file": "sql/GET-users.sql",
+    "type": "sql_endpoint",
+    "return_type": "json"
+  },
+  {
+    "name": "-users",
+    "description": "",
     "method": "POST",
     "endpoint": "/users",
     "data_source": {
@@ -28,25 +47,6 @@
     "tag": "users",
     "batch_operation": 1,
     "sql_file": "sql/POST-users.sql",
-    "type": "sql_endpoint",
-    "return_type": "json"
-  },
-  {
-    "name": "-users",
-    "description": "",
-    "method": "GET",
-    "endpoint": "/users",
-    "data_source": {
-      "cluster_id": 1379661944646227634
-    },
-    "params": [],
-    "settings": {
-      "timeout": 5000,
-      "row_limit": 50
-    },
-    "tag": "users",
-    "batch_operation": 0,
-    "sql_file": "sql/GET-users.sql",
     "type": "sql_endpoint",
     "return_type": "json"
   },
