@@ -1,16 +1,21 @@
 [
     {
-        "name": "HelloWorld",
-        "private": false,
-        "disable_arg_logs": true
-    },
-    {
         "name": "bar000",
         "private": false,
         "disable_arg_logs": true
     },
     {
         "name": "foo",
+        "private": false,
+        "disable_arg_logs": true
+    },
+    {
+        "name": "HelloWorld",
+        "private": false,
+        "disable_arg_logs": true
+    },
+    {
+        "name": "Function_0000",
         "private": false,
         "disable_arg_logs": true
     }
