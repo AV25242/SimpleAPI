@@ -1,0 +1,2 @@
+USE sp500insight;
+INSERT INTO `companies` (`stock_symbol`,`exchange_symbol`,`short_name`,`long_name`,`sector`,`industry`,`current_price`,`market_cap`,`ebitda`,`revenue_growth`,`city`,`state`,`country`,`country_code`,`full_time_employees`,`long_business_summary`) VALUES(${stock_symbol},${exchange_symbol},${short_name},${long_name},${sector},${industry},${current_price},${market_cap},${ebitda},${revenue_growth},${city},${state},${country},${country_code},${full_time_employees},${long_business_summary});
