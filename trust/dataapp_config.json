@@ -2,6 +2,6 @@
   "app_id": "dataapp-vUtRlZUJ",
   "app_name": "New App",
   "app_type": "dataapp",
-  "description": "",
+  "description": "Test app builds basic endpoints",
   "app_version": "1.0.0"
 }
