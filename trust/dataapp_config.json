@@ -1,7 +1,7 @@
 {
   "app_id": "dataapp-vUtRlZUJ",
-  "app_name": "test-app01",
+  "app_name": "New App",
   "app_type": "dataapp",
-  "description": "Test app builds basic endpoints",
+  "description": "",
   "app_version": "1.0.0"
 }
