@@ -1,11 +1,11 @@
 [
     {
-        "name": "bar000",
+        "name": "foo",
         "private": false,
         "disable_arg_logs": true
     },
     {
-        "name": "foo",
+        "name": "Function_0000",
         "private": false,
         "disable_arg_logs": true
     },
@@ -15,7 +15,12 @@
         "disable_arg_logs": true
     },
     {
-        "name": "Function_0000",
+        "name": "bar000",
+        "private": false,
+        "disable_arg_logs": true
+    },
+    {
+        "name": "jump",
         "private": false,
         "disable_arg_logs": true
     }
