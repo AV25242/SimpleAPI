@@ -2,7 +2,7 @@
   {
     "name": "/currency",
     "description": "",
-    "method": "GET",
+    "method": "DELETE",
     "endpoint": "/currency",
     "data_source": {
       "cluster_id": 1379661944646406158
@@ -25,51 +25,7 @@
     },
     "tag": "Default",
     "batch_operation": 0,
-    "sql_file": "sql/GET-currency.sql",
-    "type": "sql_endpoint",
-    "return_type": "json"
-  },
-  {
-    "name": "/currency",
-    "description": "",
-    "method": "POST",
-    "endpoint": "/currency",
-    "data_source": {
-      "cluster_id": 1379661944646406158
-    },
-    "params": [
-      {
-        "name": "code",
-        "type": "string",
-        "required": 1,
-        "default": "",
-        "description": ""
-      },
-      {
-        "name": "symbol",
-        "type": "string",
-        "required": 0,
-        "default": "",
-        "description": ""
-      },
-      {
-        "name": "name",
-        "type": "string",
-        "required": 0,
-        "default": "",
-        "description": ""
-      }
-    ],
-    "settings": {
-      "timeout": 30000,
-      "row_limit": 1000,
-      "cache_enabled": 0,
-      "cache_ttl": 0,
-      "enable_pagination": 0
-    },
-    "tag": "Default",
-    "batch_operation": 0,
-    "sql_file": "sql/POST-currency.sql",
+    "sql_file": "sql/DELETE-currency.sql",
     "type": "sql_endpoint",
     "return_type": "json"
   },
@@ -120,7 +76,51 @@
   {
     "name": "/currency",
     "description": "",
-    "method": "DELETE",
+    "method": "POST",
+    "endpoint": "/currency",
+    "data_source": {
+      "cluster_id": 1379661944646406158
+    },
+    "params": [
+      {
+        "name": "code",
+        "type": "string",
+        "required": 1,
+        "default": "",
+        "description": ""
+      },
+      {
+        "name": "symbol",
+        "type": "string",
+        "required": 0,
+        "default": "",
+        "description": ""
+      },
+      {
+        "name": "name",
+        "type": "string",
+        "required": 0,
+        "default": "",
+        "description": ""
+      }
+    ],
+    "settings": {
+      "timeout": 30000,
+      "row_limit": 1000,
+      "cache_enabled": 0,
+      "cache_ttl": 0,
+      "enable_pagination": 0
+    },
+    "tag": "Default",
+    "batch_operation": 0,
+    "sql_file": "sql/POST-currency.sql",
+    "type": "sql_endpoint",
+    "return_type": "json"
+  },
+  {
+    "name": "/currency",
+    "description": "",
+    "method": "GET",
     "endpoint": "/currency",
     "data_source": {
       "cluster_id": 1379661944646406158
@@ -143,7 +143,7 @@
     },
     "tag": "Default",
     "batch_operation": 0,
-    "sql_file": "sql/DELETE-currency.sql",
+    "sql_file": "sql/GET-currency.sql",
     "type": "sql_endpoint",
     "return_type": "json"
   },
