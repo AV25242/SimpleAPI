@@ -15,7 +15,7 @@
       "cache_ttl": 0,
       "enable_pagination": 0
     },
-    "tag": "System(Data)",
+    "tag": "System/Data",
     "batch_operation": 0,
     "sql_file": "sql/POST-system-data-executeQuery.sql",
     "type": "sql_endpoint",
