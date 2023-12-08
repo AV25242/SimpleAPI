@@ -1,0 +1,2 @@
+USE fortune500;
+INSERT INTO `fortune500_2018_2022` (`rank`,`company_name`,`country`,`employees_num`,`employees_num_change_percentage`,`previous_rank`,`revenues_million`,`revene_change_percentage`,`profit_million`,`profit_change_percentage`,`asset_million`,`asset_change_percentage`,`year`,`col`) VALUES(${rank},${company_name},${country},${employees_num},${employees_num_change_percentage},${previous_rank},${revenues_million},${revene_change_percentage},${profit_million},${profit_change_percentage},${asset_million},${asset_change_percentage},${year},${col});
