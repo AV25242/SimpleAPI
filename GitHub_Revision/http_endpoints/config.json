@@ -1,0 +1,172 @@
+[
+  {
+    "name": "/currency",
+    "description": "",
+    "method": "POST",
+    "endpoint": "/currency",
+    "data_source": {
+      "cluster_id": 1379661944646406158
+    },
+    "params": [
+      {
+        "name": "code",
+        "type": "string",
+        "required": 1,
+        "default": "",
+        "description": ""
+      },
+      {
+        "name": "symbol",
+        "type": "string",
+        "required": 0,
+        "default": "",
+        "description": ""
+      },
+      {
+        "name": "name",
+        "type": "string",
+        "required": 0,
+        "default": "",
+        "description": ""
+      }
+    ],
+    "settings": {
+      "timeout": 30000,
+      "row_limit": 1000,
+      "cache_enabled": 0,
+      "cache_ttl": 0,
+      "enable_pagination": 0
+    },
+    "tag": "Currency",
+    "batch_operation": 0,
+    "sql_file": "sql/POST-currency.sql",
+    "type": "sql_endpoint",
+    "return_type": "json"
+  },
+  {
+    "name": "/currency",
+    "description": "",
+    "method": "PUT",
+    "endpoint": "/currency",
+    "data_source": {
+      "cluster_id": 1379661944646406158
+    },
+    "params": [
+      {
+        "name": "symbol",
+        "type": "string",
+        "required": 0,
+        "default": "",
+        "description": ""
+      },
+      {
+        "name": "name",
+        "type": "string",
+        "required": 0,
+        "default": "",
+        "description": ""
+      },
+      {
+        "name": "code",
+        "type": "string",
+        "required": 1,
+        "default": "",
+        "description": ""
+      }
+    ],
+    "settings": {
+      "timeout": 30000,
+      "row_limit": 1000,
+      "cache_enabled": 0,
+      "cache_ttl": 0,
+      "enable_pagination": 0
+    },
+    "tag": "Currency",
+    "batch_operation": 0,
+    "sql_file": "sql/PUT-currency.sql",
+    "type": "sql_endpoint",
+    "return_type": "json"
+  },
+  {
+    "name": "/currency",
+    "description": "",
+    "method": "DELETE",
+    "endpoint": "/currency",
+    "data_source": {
+      "cluster_id": 1379661944646406158
+    },
+    "params": [
+      {
+        "name": "code",
+        "type": "string",
+        "required": 1,
+        "default": "",
+        "description": ""
+      }
+    ],
+    "settings": {
+      "timeout": 30000,
+      "row_limit": 1000,
+      "cache_enabled": 0,
+      "cache_ttl": 0,
+      "enable_pagination": 0
+    },
+    "tag": "Currency",
+    "batch_operation": 0,
+    "sql_file": "sql/DELETE-currency.sql",
+    "type": "sql_endpoint",
+    "return_type": "json"
+  },
+  {
+    "name": "/currency",
+    "description": "",
+    "method": "GET",
+    "endpoint": "/system/currency",
+    "data_source": {
+      "cluster_id": 1379661944646406158
+    },
+    "params": [
+      {
+        "name": "code",
+        "type": "string",
+        "required": 1,
+        "default": "",
+        "description": ""
+      }
+    ],
+    "settings": {
+      "timeout": 30000,
+      "row_limit": 1000,
+      "cache_enabled": 0,
+      "cache_ttl": 0,
+      "enable_pagination": 0
+    },
+    "tag": "Currency",
+    "batch_operation": 0,
+    "sql_file": "sql/GET-system-currency.sql",
+    "type": "sql_endpoint",
+    "return_type": "json"
+  },
+  {
+    "name": "/system/data/executeQuery",
+    "description": "   Perform both read and write operations, allowing execution of any SQL statement. \n    Caution: This endpoint is powerful and versatile but can be potentially destructive.\n    Use with discretion and ensure the queries are secure and well-considered\n    to prevent unintended consequences",
+    "method": "POST",
+    "endpoint": "/system/data/executeQuery",
+    "data_source": {
+      "cluster_id": 1379661944646406158
+    },
+    "params": [],
+    "settings": {
+      "timeout": 30000,
+      "row_limit": 1000,
+      "cache_enabled": 0,
+      "cache_ttl": 0,
+      "enable_pagination": 0
+    },
+    "tag": "System/Data",
+    "batch_operation": 0,
+    "sql_file": "sql/POST-system-data-executeQuery.sql",
+    "type": "sql_endpoint",
+    "return_type": "json"
+  }
+]
